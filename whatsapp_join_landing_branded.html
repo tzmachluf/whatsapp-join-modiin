@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>תוצרת השדה — הצטרפות לקבוצת וואטסאפ</title>
+  <meta name="description" content="הצטרפו לקבוצת הוואטסאפ של תוצרת השדה. לחיצה על הכפתור תפתח את ההזמנה. אם זה לא נפתח מתוך פייסבוק — העתיקו והדביקו את הקישור בדפדפן.">
+  <meta property="og:title" content="תוצרת השדה — הצטרפות לקבוצת וואטסאפ">
+  <meta property="og:description" content="לחצו על הכפתור הירוק והצטרפו לקבוצה. יעבוד גם כשנכנסים מפייסבוק.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="">
+  <meta name="theme-color" content="#25D366">
+  <style>
+    :root{
+      --bg:#0b1320;
+      --card:#0f1a2e;
+      --accent:#25D366;
+      --accent-2:#1fa855;
+      --text:#eef5ff;
+      --muted:#a7b3c6;
+      --brand:#d9f7e6;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      background:
+        radial-gradient(1200px 600px at 75% -10%, #1a2a47 0, var(--bg) 40%, #0a0f1d 100%),
+        url('bg.jpg') center/cover no-repeat fixed;
+      color:var(--text);
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, "Noto Sans Hebrew", "Noto Sans", Helvetica, Arial, sans-serif;
+      min-height:100dvh;
+      display:flex; align-items:center; justify-content:center; padding:24px;
+    }
+    .wrap{width:min(760px, 100%)}
+    .card{
+      background:linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.02));
+      border:1px solid rgba(255,255,255,.12);
+      border-radius:22px; padding:28px; box-shadow:0 14px 36px rgba(0,0,0,.28);
+      backdrop-filter: blur(8px);
+    }
+    .brand{display:flex; gap:14px; align-items:center; margin-bottom:8px}
+    .brand .logo{
+      width:60px;height:60px; border-radius:16px; overflow:hidden;
+      border:1px solid rgba(255,255,255,.18);
+      background:#244a35;
+      display:grid; place-items:center;
+    }
+    .brand .logo img{width:100%; height:100%; object-fit:cover; display:block}
+    .brand .logo svg{width:40px;height:40px; fill:var(--brand)}
+    h1{margin:0 0 6px 0; font-size:clamp(22px,3.6vw,30px)}
+    p{margin:0 0 14px 0; color:var(--muted); line-height:1.65}
+    .actions{display:flex; flex-wrap:wrap; gap:12px; margin-top:18px}
+    .btn{
+      appearance:none; border:none; cursor:pointer; text-decoration:none;
+      background:var(--accent); color:#062b17; font-weight:800;
+      border-radius:14px; padding:14px 18px; font-size:18px;
+      transition: transform .06s ease, box-shadow .2s ease, background .2s ease;
+      box-shadow: 0 8px 22px rgba(37,211,102,.38);
+      display:flex; align-items:center; gap:10px;
+    }
+    .btn:hover{transform:translateY(-1px); background:var(--accent-2)}
+    .btn:active{transform:translateY(0) scale(.99)}
+    .btn svg{width:22px;height:22px; fill:#062b17}
+    .secondary{ background:#263655; color:#e7efff; box-shadow:none; font-weight:700 }
+    .secondary:hover{background:#314262}
+    .link-box{
+      background:#0c1528; border:1px dashed rgba(255,255,255,.18);
+      border-radius:12px; padding:12px; margin-top:14px;
+      display:flex; gap:10px; align-items:center; justify-content:space-between;
+      word-break:break-all;
+    }
+    code{color:#cfe7ff; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Roboto Mono", monospace;}
+    small{color:#95a6c0}
+    .footer{margin-top:18px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <main class="card" role="main" aria-labelledby="title">
+      <div class="brand">
+        <div class="logo" aria-hidden="true">
+          <!-- If you have a logo file, replace logo.svg/img below or drop a file named 'logo.png' next to this HTML -->
+          <img src="logo.png" onerror="this.replaceWith(document.getElementById('fallbackLogo').content.cloneNode(true))" alt="לוגו תוצרת השדה">
+          <template id="fallbackLogo">
+            <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 10 10A10.011 10.011 0 0 0 12 2zm4.68 7.27-1.4 6.14a1.75 1.75 0 0 1-1.71 1.36H9.91a1.75 1.75 0 0 1-1.62-2.27l1.94-5.73A2 2 0 0 1 12.12 7h2.56a2 2 0 0 1 1.99 2.27z"/></svg>
+          </template>
+        </div>
+        <div>
+          <h1 id="title">הצטרפות לקבוצת וואטסאפ — תוצרת השדה</h1>
+          <p>לחצו על הכפתור הירוק להצטרפות. אם זה לא נפתח בתוך פייסבוק — העתיקו את הקישור והדביקו בדפדפן Chrome.</p>
+        </div>
+      </div>
+
+      <div class="actions">
+        <a id="joinBtn" class="btn" href="https://bit.ly/4ovxbtU" rel="noopener" target="_blank" aria-label="הצטרפות לקבוצת וואטסאפ">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.52 3.48A11.94 11.94 0 0 0 12.05 0C5.46 0 .09 5.37.09 11.95c0 2.11.55 4.15 1.6 5.96L0 24l6.27-1.64a12 12 0 0 0 5.78 1.47h.01c6.58 0 11.95-5.37 11.95-11.95 0-3.19-1.24-6.2-3.49-8.4zM12.05 21.7a9.7 9.7 0 0 1-4.95-1.36l-.35-.2-3.73.98 1-3.64-.24-.37a9.68 9.68 0 0 1-1.5-5.16c0-5.36 4.37-9.72 9.72-9.72 2.6 0 5.05 1.01 6.9 2.84a9.66 9.66 0 0 1 2.83 6.9c0 5.36-4.37 9.73-9.73 9.73z"/></svg>
+          הצטרפות לקבוצה
+        </a>
+        <button id="copyBtn" class="btn secondary" type="button" aria-label="העתקת הקישור">העתק קישור</button>
+      </div>
+
+      <div class="link-box">
+        <code id="linkText">https://bit.ly/4ovxbtU</code>
+        <small id="copiedNote" aria-live="polite"></small>
+      </div>
+
+      <div class="footer">
+        <small>רוצה דומיין ממותג? אפשר לעלות את הדף ל-<b>Netlify</b>/<b>GitHub Pages</b> ולחבר דומיין כמו <i>join.tozeret.co.il</i>.</small>
+      </div>
+    </main>
+  </div>
+
+  <script>
+    // Copy helper
+    const copyBtn = document.getElementById('copyBtn');
+    const linkText = document.getElementById('linkText');
+    const copiedNote = document.getElementById('copiedNote');
+    copyBtn.addEventListener('click', async () => {
+      try{
+        await navigator.clipboard.writeText(linkText.textContent.trim());
+        copiedNote.textContent = "✓ הועתק. פתחו ב-Chrome והדביקו בשורת הכתובת.";
+        setTimeout(()=>copiedNote.textContent="", 3500);
+      }catch(err){
+        copiedNote.textContent = "לא הצלחתי להעתיק אוטומטית — סמנו והעתיקו ידנית.";
+        setTimeout(()=>copiedNote.textContent="", 5000);
+      }
+    });
+  </script>
+</body>
+</html>
